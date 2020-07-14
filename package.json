@@ -1,0 +1,26 @@
+{
+  "name": "storybook",
+  "version": "1.0.0",
+  "description": "tutorial",
+  "homepage": "http://ZephyrToad.github.io/storybook",
+  "main": "index.js",
+  "repository": "git@github.com:ZephyrToad/storybook",
+  "author": "michael <mikeyjsalmon@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
+    "storybook": "start-storybook"
+  },
+  "dependencies": {
+    "gh-pages": "^3.1.0",
+    "node": "^14.5.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@storybook/react": "^5.3.19",
+    "babel-loader": "^8.1.0"
+  }
+}
